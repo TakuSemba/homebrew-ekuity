@@ -2,10 +2,10 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Ekuity < Formula
-  version "1.0.0"
+  version "1.0.1"
   desc "A command-line tool written in Kotlin for calculating equity"
   homepage "https://github.com/TakuSemba/Ekuity"
-  url "https://github.com/TakuSemba/Ekuity/releases/download/1.0.0/ekuity.tar"
+  url "https://github.com/TakuSemba/Ekuity/releases/download/1.0.1/ekuity.tar"
   sha256 "be2851477f51c1788dc15f66baf98629680ae723845d6803c028cbd8d16d5d3c"
 
   # depends_on "cmake" => :build
