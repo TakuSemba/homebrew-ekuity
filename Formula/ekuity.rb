@@ -6,7 +6,7 @@ class Ekuity < Formula
   desc "A command-line tool written in Kotlin for calculating equity"
   homepage "https://github.com/TakuSemba/Ekuity"
   url "https://github.com/TakuSemba/Ekuity/releases/download/1.0.0/ekuity.tar"
-  sha256 "19c1f9eb3ab957535a6b29b2221086f717ba5e361cf6503d911481b5955da96c"
+  sha256 "2560d74de874086d44ac6b81ec42c109b4bdfeeec17e775d8e6194bc79d24e0a"
 
   # depends_on "cmake" => :build
 
