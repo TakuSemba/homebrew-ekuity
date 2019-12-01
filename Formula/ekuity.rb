@@ -13,7 +13,7 @@ class Ekuity < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    bin.install "ekuity"
+    bin.install "ekuity/bin"
     # system "cmake", ".", *std_cmake_args
   end
 
