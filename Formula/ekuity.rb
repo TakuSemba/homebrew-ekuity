@@ -2,6 +2,7 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Ekuity < Formula
+  version "1.0.0"
   desc "A command-line tool written in Kotlin for calculating equity"
   homepage "https://github.com/TakuSemba/Ekuity"
   url "https://github.com/TakuSemba/Ekuity/releases/download/1.0.0/ekuity.tar"
