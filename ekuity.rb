@@ -12,10 +12,7 @@ class Ekuity < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
+    bin.install '<バイナリ名>'
     # system "cmake", ".", *std_cmake_args
   end
 
